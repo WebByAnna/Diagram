@@ -1,0 +1,19 @@
+#myChart {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  /* Для планшетной версии */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    #myChart {
+      max-width: 80vw;
+      margin: 0 auto;
+    }
+  }
+
+  /* Для десктопной версии */
+  @media screen and (min-width: 1025px) {
+    #myChart {
+      max-width: 60vw;
+      margin: 0 auto;
+    }
+  }
